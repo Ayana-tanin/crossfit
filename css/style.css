@@ -480,6 +480,9 @@ p:not([class]):not(:last-child) {
     .header-action {
         column-gap: 15px;   
     }
+    .banner {
+        min-height: calc(100vh - (var(--header-height) * 8 ));
+    }
     .banner-info::before{
         margin: 0 10px 5px 0;
     }
